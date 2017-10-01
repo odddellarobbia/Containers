@@ -1,6 +1,6 @@
 # ----------------------------------
 # Pterodactyl Core Dockerfile
-# Environment: glibc
+# Environment: nodejs
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
 FROM node:8-alpine
