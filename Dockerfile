@@ -3,9 +3,9 @@
 # Environment: glibc
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
-FROM        frolvlad/alpine-glibc
+FROM node:8-alpine
 
-MAINTAINER  Pterodactyl Software, <support@pterodactyl.io>
+MAINTAINER Michael Parker, <docker@parkervcp.com>
 
 RUN         apk update \
             && apk upgrade \
